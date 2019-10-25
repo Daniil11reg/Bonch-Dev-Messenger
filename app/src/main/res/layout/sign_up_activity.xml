@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/header_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Регистрация"
+        android:textAlignment="center"
+        android:layout_weight="20"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/email_sign_up_et"
+        android:hint="Почта"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"/>
+    <EditText
+        android:id="@+id/login_et"
+        android:hint="Логин"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"/>
+    <EditText
+        android:id="@+id/password_sign_up_et"
+        android:hint="Пароль"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"/>
+    <EditText
+        android:id="@+id/password_confirm_et"
+        android:hint="Подтвердите пароль"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"/>
+    <Button
+        android:id="@+id/sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Войти"
+        android:textAllCaps="false" />
+
+</LinearLayout>
